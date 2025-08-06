@@ -16,3 +16,13 @@ Console-based user-friendly interaction loop with choices:
 2 → Login
 3 → Exit
 
+How It Works
+When registering, the program:
+Prompts for a username and password.
+Saves the credentials in a file named username.txt under the user/ folder.
+
+When logging in:
+It reads the stored file for the entered username.
+Checks if the password matches.
+The system will continue running in a loop until the user chooses to exit.
+
